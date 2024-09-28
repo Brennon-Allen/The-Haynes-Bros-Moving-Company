@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(24, 40, 95);
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40em;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 .5em #000000aa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(1 0 1em #000000aa);
+}
+
+.haynes-image {
+  border: 2px solid darkblue;
+  margin-top: 50px;
+  width: 50%;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.slogan-box {
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dolley-icon {
+  width: 100px;
+}
+
+.slogan-text {
+  color: rgb(24, 40, 95);
+  margin-left: 50px;
+}
