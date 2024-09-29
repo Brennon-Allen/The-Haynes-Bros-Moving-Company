@@ -3,6 +3,16 @@ body {
   color: rgb(24, 40, 95);
 }
 
+p {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+h1 {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
 #root {
   margin: 0 auto;
   text-align: center;
@@ -15,16 +25,36 @@ body {
   align-items: center;
 }
 
+.header-main {
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+ul {
+  display: block;
+}
+
+li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
 .logo {
-  width: 40em;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 .5em #000000aa);
-}
-
-.logo.react:hover {
-  filter: drop-shadow(1 0 1em #000000aa);
+  top: 0;
+  left:auto;
+  /* position: absolute; */
+  width: 30em;
 }
 
 .haynes-image {
@@ -33,35 +63,71 @@ body {
   width: 50%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .slogan-box {
   left: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .dolley-icon {
   width: 100px;
+  margin-top: 40px;
 }
 
 .slogan-text {
   color: rgb(24, 40, 95);
   margin-left: 50px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.w3container {
+  border: 1px solid #cccfdb; /* Border style for w3rcontainer */
+  border-radius: none; /* Border radius for w3rcontainer */
+}
+
+.introduction-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.haynes-bros {
+  margin-top: 30px;
+  border: 2px solid black;
+}
+
+li {
+  display: inline-block; /* Display inline block */
+  position: relative; /* Set position relative */
+  background: transparent;
+  padding: 5px;
+  border: none;
+  color: #000000; /* Set text color */
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+li:after {
+  content: ''; /* Add content after the element */
+  position: absolute; /* Position absolute for pseudo-element */
+  width: 100%; /* Full width */
+  transform: scaleX(0); /* Initial scale of 0 for underline effect */
+  height: 2px; /* Height of the underline */
+  bottom: 0; /* Align to bottom */
+  left: 0; /* Align to left */
+  background-color: darkblue; /* Background color of the underline */
+  transform-origin: bottom right; /* Set transform origin */
+  transition: transform 0.25s ease-out; /* Transition effect for the underline */
+ 
+}
+
+li:hover:after {
+  transform: scaleX(1); /* Scale the underline on hover */
+  transform-origin: bottom left; /* Set transform origin */
 }
