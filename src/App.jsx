@@ -12,6 +12,7 @@ function App() {
     <>
       <Header />
       <Routes>
+        <Route path="/" element={<Introduction />} />
         <Route path="/Introduction" element={<Introduction />} />
         <Route path="/MovingGallery" element={<MovingGallery />} />
         <Route path="/MovingQuote" element={<MovingQuote />} />
