@@ -4,7 +4,21 @@ export default function MovingGallery(){
 
     return (
         <div className="moving-gallery-main">
-            Moving Gallery
+            <div className="img-placeholder"></div>
+            <div className="img-placeholder"></div>
+            <div className="img-placeholder"></div>
+            <div className="img-placeholder"></div>
+            <div className="img-placeholder"></div>
+            <div className="img-placeholder"></div>
+            <div className="img-placeholder"></div>
+            <div className="img-placeholder"></div>
+            <div className="img-placeholder"></div>
+            <div className="img-placeholder"></div>
+            <div className="img-placeholder"></div>
+            <div className="img-placeholder"></div>
+            <div className="img-placeholder"></div>
+            <div className="img-placeholder"></div>
+            <div className="img-placeholder"></div>
         </div>
     )
 }

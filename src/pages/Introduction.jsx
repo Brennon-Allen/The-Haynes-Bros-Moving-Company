@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom"
-import haynesBros from '../assets/haynes-bros.jpeg'
+import { Link } from "react-router-dom";
+import haynesBros from "../assets/haynes-bros.jpeg";
 import dolleyIcon from "../assets/dolley-icon.png";
 
 export default function Introduction() {
   return (
     <div className="introduction-main">
-        <img className="haynes-bros" src={haynesBros} />
+      <img className="haynes-bros" src={haynesBros} />
       <h1>MOVERS FOR THE PEOPLE IN AUSTIN, TEXAS</h1>
       <p>
         The Haynes Bro's Moving Company is a local family owned business in
@@ -20,10 +20,16 @@ export default function Introduction() {
         minimum and a $120 travel fee!
       </p>
       <p>Contact us now to book your move!</p>
+        <h5>Raymond Haynes</h5>
+        <p>Cell phone: (512)701-0966</p>
+        <p>Email: raymondhaynes100@gmail.com</p>
+        <h5>Deyonne Haynes</h5>
+        <p>Cell phone: (512) 902-5453</p>
+        <p>Email: haynesbrothers2015@gmail.com</p>
       <Link to="/MovingGallery">
-        <button>Moving Gallery</button>
+        <button>Get a Quote</button>
       </Link>
       <img src={dolleyIcon} className="dolley-icon" />
     </div>
-  )
+  );
 }

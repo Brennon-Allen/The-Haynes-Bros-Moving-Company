@@ -18,13 +18,6 @@ h1 {
   text-align: center;
 }
 
-.header {
-  display: flexbox;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .header-main {
   top: 0;
   display: flex;
@@ -61,6 +54,22 @@ li {
   border: 2px solid darkblue;
   margin-top: 50px;
   width: 50%;
+}
+
+.moving-gallery-main {
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-placeholder {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: #000000;
+  border: 2px solid blue;
+  margin: 15px;
 }
 
 .slogan-box {
