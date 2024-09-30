@@ -8,14 +8,14 @@ export default function Navbar() {
         <Link to="/Introduction">
             <li>Introduction</li>
         </Link>
-        <Link to="/MovingGallery">
-            <li>Moving Gallery</li>
+        <Link to="/Photos">
+                <li>Photos</li>
             </Link>
             <Link to="/Reviews">
-            <li>Reviews</li>
+                <li>Reviews</li>
             </Link>
-            <Link to="/MovingQuote">
-            <li>Moving Quote</li>
+            <Link to="/Quote">
+                <li>Get a Quote</li>
             </Link>
         </ul>
       </div>

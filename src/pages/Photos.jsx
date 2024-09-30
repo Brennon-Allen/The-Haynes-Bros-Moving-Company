@@ -1,9 +1,9 @@
 
 
-export default function MovingGallery(){
+export default function Photos(){
 
     return (
-        <div className="moving-gallery-main">
+        <div className="photos-main">
             <div className="img-placeholder"></div>
             <div className="img-placeholder"></div>
             <div className="img-placeholder"></div>
